@@ -20,7 +20,7 @@ BEGIN
     )
     BEGIN
         RAISERROR(
-            'Tipo de documento no v·lido. Solo se permiten: Cedula de CiudadanÌa(CC), Tarjeta de Identidad(TI), Cedula de Extranjeria(CE), Permiso Especial de Permanencia(PEP) o Permiso por Proteccion Temporal(PPT).',
+            'Tipo de documento no v√°lido. Solo se permiten: Cedula de Ciudadan√≠a(CC), Tarjeta de Identidad(TI), Cedula de Extranjeria(CE), Permiso Especial de Permanencia(PEP) o Permiso por Proteccion Temporal(PPT).',
             16,
             1
         );
