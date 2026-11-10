@@ -107,13 +107,13 @@ WHERE ES.Nombre = 'INACTIVOS';
 
 GO
 
-SELECT * FROM [Estudiantes_Activos];
-SELECT * FROM [Estudiantes_Finalizados];
-SELECT * FROM [Estudiantes_Promovidos];
-SELECT * FROM [Estudiantes_Retirados];
-SELECT * FROM [Estudiantes_Suspendidos];
-SELECT * FROM [Estudiantes_Trasladados];
-SELECT * FROM [Estudiantes_INACTIVOS];
+SELECT * FROM [Activos];
+SELECT * FROM [Finalizados];
+SELECT * FROM [Promovidos];
+SELECT * FROM [Retirados];
+SELECT * FROM [Suspendidos];
+SELECT * FROM [Trasladados];
+SELECT * FROM [Inactivos];
 
 GO
 
