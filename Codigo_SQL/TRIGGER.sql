@@ -31,3 +31,23 @@ BEGIN
 
 END;
 GO
+
+CREATE TRIGGER TR_EncriptarContrasena
+ON USUARIO
+AFTER INSERT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    UPDATE u
+    SET Contraseña = CONVERT(VARCHAR(500),
+    ENCRYPTBYPASSPHRASE(
+        'MiClaveSecreta123',
+        i.Contraseña),
+        2
+        
+    )
+    FROM USUARIO u
+    INNER JOIN inserted i
+        ON u.ID_Usuario = i.ID_Usuario;
+END;
