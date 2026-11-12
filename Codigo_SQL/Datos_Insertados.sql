@@ -223,7 +223,6 @@ INSERT INTO USUARIO (ID_Usuario, Numero_Documento, Contraseña, Tipo_Documento, 
 INSERT INTO USUARIO (ID_Usuario, Numero_Documento, Contraseña, Tipo_Documento, Nombres, Apellidos, Correo, Numero_Celular, ID_Rol) VALUES (100, 1000000100, 'ENCRIPTADA', 'CC', 'Diana', 'Mendoza', 'diana100@mail.com', 3001000100, 4);
 SET IDENTITY_INSERT USUARIO OFF;
 
-
 SET IDENTITY_INSERT CURSO ON;
 INSERT INTO CURSO (ID_Curso, Nombre, ID_Salon) VALUES (1, 'Primero A', 1);
 INSERT INTO CURSO (ID_Curso, Nombre, ID_Salon) VALUES (2, 'Primero B', 2);
