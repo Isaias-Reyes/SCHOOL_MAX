@@ -186,3 +186,6 @@ SELECT * FROM [Reporte_Disciplinario]
 SELECT * FROM [Reporte_Convivencia]
 SELECT * FROM [Reporte_Administrativo]
 SELECT * FROM [Reporte_Boletín]
+
+
+SELECT * FROM USUARIO
