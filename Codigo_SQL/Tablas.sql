@@ -12,7 +12,7 @@ CREATE TABLE ROL(
 CREATE TABLE USUARIO(
     ID_Usuario INT IDENTITY(1,1) PRIMARY KEY,
     Numero_Documento VARCHAR (25) NOT NULL,
-    Contraseña VARCHAR(50) NOT NULL,
+    Contraseña VARCHAR(500) NOT NULL,
     Tipo_Documento VARCHAR(10) NOT NULL,
     Nombres VARCHAR(50) NOT NULL,
     Apellidos VARCHAR(50) NOT NULL,
